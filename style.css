@@ -1,0 +1,18 @@
+/* *-----------------------  Google fonts ----------------------- * */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+
+.primary-btn{
+    background-color: #B68C5A;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+}
