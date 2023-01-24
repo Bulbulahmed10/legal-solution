@@ -1,42 +1,82 @@
 /* *-----------------------  Google fonts ----------------------- * */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap");
 
-body{
-font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.primary-btn{
-    background-color: #B68C5A;
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    text-transform: capitalize;
-    color: #fff;
-    font-weight: 600;
-    font-size: 16px;
-    border-radius: 5px;
+.primary-btn {
+  background-color: #b68c5a;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 5px;
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-section{
-    margin-top: 100px;
+section {
+  margin-top: 100px;
 }
 
-.header-banner h1{
-    font-size: 72px;
+.header-banner h1 {
+  font-size: 72px;
 }
 
-.service-container div:hover{
-    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+.service-container div:hover {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
 }
 
-textarea{
-    resize: none;
+textarea {
+  resize: none;
+}
+
+@media screen and (max-width: 576px) {
+  .header-banner h1 {
+    font-size: 40px;
+  }
+
+  .header-banner p {
+    font-size: 14px;
+  }
+
+  .header-banner form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .header-banner form input {
+    width: 290px;
+  }
+
+  section {
+    margin-top: 50px;
+  }
+
+  .contact-left > div {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .header-banner form input {
+    width: 500px;
+  }
+
+  .service-container div:nth-of-type(2) {
+    border-right: none;
+  }
 }
