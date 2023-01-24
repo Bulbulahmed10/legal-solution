@@ -41,6 +41,29 @@ textarea {
   resize: none;
 }
 
+
+@media screen and (max-width: 330px) {
+
+    .user-img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .carousel-text{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 331px) {
+    .user-img{
+        width: 70px;
+        height: 70px;
+ 
+    }
+}
+
 @media screen and (max-width: 576px) {
   .header-banner h1 {
     font-size: 40px;
